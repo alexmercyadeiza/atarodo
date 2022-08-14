@@ -9,7 +9,16 @@ module.exports = {
       fontFamily: {
         sans: ['"General Sans"'],
       },
+      colors: {
+        "at-green": "#008037",
+        "at-red": "#E32227",
+        "at-yellow": "#FBB002",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require("@tailwindcss/forms")],
+
+  daisyui: {
+    themes: false,
+  },
 };
