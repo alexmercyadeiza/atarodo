@@ -973,7 +973,7 @@ export default function Home() {
 
           <div className="grid grid-cols-4 gap-8">
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://theatarodong.medium.com/how-to-successfully-partner-with-creators-3e68316a3233"
               className="h-[30rem] hover:opacity-80"
             >
@@ -989,7 +989,7 @@ export default function Home() {
             </a>
 
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://theatarodong.medium.com/hyper-localized-marketing-campaigns-the-what-the-why-the-how-and-examples-e3914c33a387"
               className="h-[30rem] hover:opacity-80"
             >
@@ -1006,7 +1006,7 @@ export default function Home() {
             </a>
 
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://theatarodong.medium.com/are-short-form-videos-the-future-of-marketing-8d844ede55c9"
               className="h-[30rem] hover:opacity-80"
             >
@@ -1022,7 +1022,7 @@ export default function Home() {
             </a>
 
             <a
-              target="_blank"
+              target="_blank" rel="noreferrer"
               href="https://theatarodong.medium.com/developing-a-pr-plan-for-your-start-up-9f9f563cc793"
               className="h-[30rem] hover:opacity-80"
             >
