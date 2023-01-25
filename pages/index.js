@@ -152,7 +152,6 @@ export default function Home() {
           <div className="grid w-full place-items-center p-6 grayscale filter">
             <img
               src="https://res.cloudinary.com/dsud8phmd/image/upload/v1674685241/Atarodo%20Logos/EFmLYXL8_400x400-removebg-preview_ofmfyu.png"
-              alt=""
             />
           </div>
 
