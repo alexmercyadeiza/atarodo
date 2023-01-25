@@ -78,7 +78,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="pb-20">
+      <div className="md:pb-20">
         <div className="grid bg-yellow-50 bg-opacity-50 py-10 md:grid-cols-2 md:py-20">
           <div className="grid place-self-center">
             <div className="mb-20 px-10 md:px-20">
@@ -90,19 +90,24 @@ export default function Home() {
             </div>
 
             <div className="space-y-6 px-10 md:px-20">
-              <div className="text-6xl font-medium">
+              <div className="md:text-6xl text-4xl font-medium">
                 Better marketing results for future-forward businesses.
               </div>
-              <div className="text-2xl font-medium">
+              <div className="md:text-2xl text-xl font-medium">
                 Win hearts and pockets with data-driven marketing strategies
                 that deliver growth at scale for your business.
               </div>
 
               <div className="flex space-x-5">
                 {/* <!-- <input type="text" className="block w-full rounded-md border-gray-300 bg-gray-100 px-7 text-lg focus:border-gray-500 focus:bg-white focus:ring-0" placeholder="Leave us your email" /> --> */}
-                <button className="hover:text- btn h-[4.5rem] rounded-md border border-red-300 bg-red-100 px-9 text-xl font-normal capitalize text-red-500 hover:border-red-500 hover:bg-red-500 hover:text-white">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text- btn h-[4.5rem] rounded-md border border-red-300 bg-red-100 px-9 md:text-xl text-lg font-normal capitalize text-red-500 hover:border-red-500 hover:bg-red-500 hover:text-white"
+                >
                   Schedule a strategy session
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -137,7 +142,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="grid w-full place-items-center p-6 grayscale">
+          <div className="grid w-full place-items-center p-2 grayscale">
             <img
               src="https://res.cloudinary.com/dsud8phmd/image/upload/v1674314643/Atarodo%20Logos/yev3hmh0yumv3kkzyywq_dsmnwd.png"
               alt=""
@@ -146,7 +151,7 @@ export default function Home() {
 
           <div className="grid w-full place-items-center p-6 grayscale filter">
             <img
-              src="https://res.cloudinary.com/dsud8phmd/image/upload/v1674314642/Atarodo%20Logos/EFmLYXL8_400x400_bxwcxk.jpg"
+              src="https://res.cloudinary.com/dsud8phmd/image/upload/v1674685241/Atarodo%20Logos/EFmLYXL8_400x400-removebg-preview_ofmfyu.png"
               alt=""
             />
           </div>
@@ -160,21 +165,21 @@ export default function Home() {
         </div>
 
         {/* <!-- Goals --> */}
-        <div className="px-10 bg-opacity-10 bg-at-green pb-10 mb-20 md:px-20">
+        <div className="p-4 bg-opacity-10 bg-at-green pb-10 mb-20 md:px-20">
           <div className="grid space-y-20 py-20">
             <div className="grid space-y-5 place-self-center text-center">
-              <div className="px-10 text-6xl font-semibold tracking-tight md:px-0">
+              <div className="md:px-10 px-2 md:text-6xl text-3xl font-semibold tracking-tight md:px-0">
                 We spice it up different, <br />
                 and invite brands like yours to a treat.
               </div>
-              <div className="place-self-center px-10 text-xl leading-6 md:w-1/2 md:px-0">
+              <div className="place-self-center md:px-10 px-2 text-xl leading-6 md:w-1/2 md:px-0">
                 Win with the perfect blend of messaging, tactics, and channels
                 that help you stand out.
               </div>
             </div>
 
             <div className="grid gap-10 px-4 md:grid-cols-4 md:px-0">
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Digital Advertising
@@ -185,7 +190,12 @@ export default function Home() {
                     online audience with a variety of ad formats.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -203,10 +213,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Digital Strategy
@@ -217,7 +227,12 @@ export default function Home() {
                     marketing mix for your business.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -235,10 +250,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Social Media Management
@@ -249,7 +264,12 @@ export default function Home() {
                     thumb-stopping, and multi-format content.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -267,10 +287,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Web-Mobile Optimization + SEO
@@ -281,7 +301,12 @@ export default function Home() {
                     increase organic visibility for your business.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -299,10 +324,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Growth Marketing &amp; Strategy
@@ -313,7 +338,12 @@ export default function Home() {
                     increase organic visibility for your business.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -331,10 +361,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Marketing Automation
@@ -345,7 +375,12 @@ export default function Home() {
                     your apps and digital products.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -363,10 +398,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Product Design + Development
@@ -377,7 +412,12 @@ export default function Home() {
                     across web, apps and other brand touchpoints.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -395,10 +435,10 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
 
-              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white p-10">
+              <div className="flex flex-col justify-between space-y-10 rounded-md border bg-white md:p-10 p-6">
                 <div className="space-y-4">
                   <div className="text-xl font-medium tracking-normal text-gray-700">
                     Online Reputation Management
@@ -409,7 +449,12 @@ export default function Home() {
                     create and share online narratives of yourself or business.
                   </div>
                 </div>
-                <div className="flex cursor-pointer items-center space-x-2 hover:opacity-80">
+                <a
+                  href="https://calendly.com/theatarodong/30min"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex cursor-pointer items-center space-x-2 hover:opacity-80"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10"
@@ -427,20 +472,20 @@ export default function Home() {
                   <div className="text-sm font-medium text-gray-700">
                     Learn more
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="px-10 md:px-20 space-y-20">
-          <div className="grid px-10 md:px-20">
-            <div className="text-5xl text-center font-medium">
+        <div className="px-6 md:px-20 space-y-20">
+          <div className="grid px-4 md:px-20">
+            <div className="md:text-5xl text-3xl text-center font-semibold">
               Reach and go beyond your business goals.
             </div>
           </div>
 
-          <div className="mx-auto grid grid-cols-4 gap-6">
+          <div className="mx-auto grid md:grid-cols-4 gap-6">
             <div className="h-96 bg-[#FFEBB4] p-6">
               <div
                 className="h-2/3 bg-gray-200 bg-cover bg-center p-2"
@@ -532,14 +577,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="h-96 bg-[#FFEBB4] p-6">
+            <div className="h-96 bg-[#FEF0E1] p-6">
               <div
                 className="h-2/3 bg-gray-200 bg-cover bg-center p-2"
                 style={{
                   backgroundImage: `url('https://res.cloudinary.com/dsud8phmd/image/upload/v1674320758/Business%20Goals%20Section/10_gc6kdj.jpg')`,
                 }}
               ></div>
-              <div className="text- pt-6 font-medium text-[#B86A29]">
+              <div className="text- pt-6 font-medium text-[#661A17]">
                 Get more people to download and use your app.
               </div>
             </div>
@@ -600,7 +645,7 @@ export default function Home() {
 
         {/* <!-- Section 4 --> */}
         <div className="bg-gray-100">
-          <div className="my-20 mx-auto grid w-2/3 grid-cols-2 place-items-center gap-14 p-10 py-40">
+          <div className="my-20 mx-auto grid md:w-2/3 md:grid-cols-2 place-items-center gap-32 p-6 py-40">
             <div className="space-y-7">
               <div className="text-4xl font-medium">
                 No matter the size of your business, think of àtarodo as growth
@@ -612,7 +657,12 @@ export default function Home() {
                 and digital experiences that connect deeply with your users, we
                 are helping ambitious businesses like yours go further, faster.
               </div>
-              <div className="flex items-center space-x-2">
+              <a
+                href="https://calendly.com/theatarodong/30min"
+                target="_blank"
+                rel="noreferrer"
+                className="flex border-t pt-6 border-opacity-40 font-medium cursor-pointer items-center space-x-2 hover:opacity-70"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -627,8 +677,9 @@ export default function Home() {
                     d="M12.75 15l3-3m0 0l-3-3m3 3h-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                <div className="text-sm font-semibold">Schedule a session</div>
-              </div>
+
+                <div>Schedule a Discovery Call</div>
+              </a>
             </div>
             {/* <!-- Dropdowns --> */}
             <div className="w-full">
@@ -895,7 +946,7 @@ export default function Home() {
 
               <div
                 onClick={() => setSix(!six)}
-                className="border-b border-yellow-700 border-opacity-20 py-6"
+                className="border-yellow-700 border-opacity-20 py-6"
               >
                 <div className="flex cursor-pointer justify-between text-yellow-600 hover:opacity-60">
                   <div className="text-xl font-medium capitalize">
@@ -941,17 +992,22 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="space-y-10 px-10 md:px-20">
-          <div className="grid items-center justify-between">
-            <div>
+        <div className="space-y-10 px-6 md:px-20">
+          <div className="grid md:grid-cols-3 space-y-6 md:space-y-0 items-center justify-between">
+            <div className="col-span-2">
               {/* <!-- <div className="capitalize">featured posts</div> --> */}
-              <div className="w-2/4 text-4xl font-medium">
+              <div className="md:text-4xl text-3xl font-semibold">
                 Grow your business with leading marketing insights, curated just
                 for you.
               </div>
             </div>
 
-            <div className="flex cursor-pointer  items-center space-x-2 hover:opacity-70">
+            <a
+              href="https://theatarodong.medium.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="flex place-self-end justify-center font-medium cursor-pointer  items-center space-x-2 hover:opacity-70"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -968,14 +1024,15 @@ export default function Home() {
               </svg>
 
               <div>Read more on the blog</div>
-            </div>
+            </a>
           </div>
 
-          <div className="grid grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-4 md:gap-8">
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://theatarodong.medium.com/how-to-successfully-partner-with-creators-3e68316a3233"
-              className="h-[30rem] hover:opacity-80"
+              className="md:h-[30rem] h-[25rem] hover:opacity-80"
             >
               <div
                 className="h-2/3 bg-gray-200 bg-cover bg-center p-2"
@@ -989,7 +1046,8 @@ export default function Home() {
             </a>
 
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://theatarodong.medium.com/hyper-localized-marketing-campaigns-the-what-the-why-the-how-and-examples-e3914c33a387"
               className="h-[30rem] hover:opacity-80"
             >
@@ -1006,7 +1064,8 @@ export default function Home() {
             </a>
 
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://theatarodong.medium.com/are-short-form-videos-the-future-of-marketing-8d844ede55c9"
               className="h-[30rem] hover:opacity-80"
             >
@@ -1022,7 +1081,8 @@ export default function Home() {
             </a>
 
             <a
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
               href="https://theatarodong.medium.com/developing-a-pr-plan-for-your-start-up-9f9f563cc793"
               className="h-[30rem] hover:opacity-80"
             >
@@ -1041,48 +1101,82 @@ export default function Home() {
 
         <div className="space-y-10 bg-orange-800 py-20">
           <div
-            className="mx-auto h-[35rem] w-2/3 bg-gray-400 bg-cover p-10"
+            className="mx-auto h-[35rem] md:w-2/3 bg-gray-400 bg-center bg-cover md:p-10 p-4"
             style={{
               backgroundImage: `url('https://res.cloudinary.com/dsud8phmd/image/upload/v1674334726/pexels-nappy-936144_1_tdq1fi.jpg')`,
             }}
           ></div>
-          <div className="mx-auto grid w-2/3 space-y-10">
+          <div className="mx-auto grid md:w-2/3 p-6 md:p-0 space-y-10">
             <div className="text-center text-2xl text-white">
-              Atarodo is a full service agency working at the intersection of
+              Atarodo is a full-service agency working at the intersection of
               brand storytelling and performance. We transform brands into
               delightful experiences, customers into advocates, and ideas into
-              resilient companies.
+              resilient companies. Let's have a chat, shall we?
             </div>
             <div className="grid place-self-center">
-              <button className="btn h-[4.5rem] rounded-full border-none bg-orange-100 px-9 text-xl font-normal capitalize text-orange-500 hover:border-orange-500 hover:bg-orange-500 hover:text-white">
+              <a
+                href="https://calendly.com/theatarodong/30min"
+                target="_blank"
+                rel="noreferrer"
+                className="btn h-[4.5rem] rounded-full border-none bg-orange-100 px-9 md:text-xl text-lg font-normal capitalize text-orange-500 hover:border-orange-500 hover:bg-orange-500 hover:text-white"
+              >
                 Schedule a strategy session
-              </button>
+              </a>
             </div>
           </div>
         </div>
 
         {/* <!-- Footer --> */}
-        <div className="space-y-6 px-10 pt-20 md:px-20">
-          <div className="grid grid-cols-3">
-            <div className="space-y-6">
+        <div className="space-y-6 px-6 md:pt-20 pt-10 pb-10 md:pb-10 md:px-20">
+          <div className="grid md:grid-cols-3 space-y-10 md:space-y-0">
+            <div className="md:space-y-6 space-y-3">
               <div className="font-bold">Follow us on social.</div>
               <div>
-                <div>Twitter</div>
-                <div>LinkedIn</div>
+                <div>
+                  <a
+                    href="https://twitter.com/TheAtarodoNG"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Twitter
+                  </a>
+                </div>
+
+                <div>
+                  <a
+                    href="https://www.linkedin.com/company/atarodo/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
+
+                <div>
+                  <a
+                    href="https://theatarodong.medium.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Medium
+                  </a>
+                </div>
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="md:space-y-6 space-y-3">
               <div className="font-bold">Call or Email</div>
               <div>
                 <div>
                   <a href="tel:+234 810 9229 773">+234 810 9229 773</a>
                 </div>
-                <div>theatarodong@gmail.com</div>
+                <a href="mailto:hello@atarodo.business">
+                  hello@atarodo.business
+                </a>
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="md:space-y-6 space-y-3">
               <div className="font-bold">átarodo</div>
               <div>
                 <div>&copy; 2022 Atarodo.</div>
