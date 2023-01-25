@@ -106,7 +106,7 @@ export default function Home() {
                   rel="noreferrer"
                   className="hover:text- btn h-[4.5rem] rounded-md border border-red-300 bg-red-100 px-9 md:text-xl text-lg font-normal capitalize text-red-500 hover:border-red-500 hover:bg-red-500 hover:text-white"
                 >
-                  Schedule a strategy session
+                  Schedule a Discovery Call
                 </a>
               </div>
             </div>
@@ -1111,7 +1111,7 @@ export default function Home() {
               Atarodo is a full-service agency working at the intersection of
               brand storytelling and performance. We transform brands into
               delightful experiences, customers into advocates, and ideas into
-              resilient companies. Let's have a chat, shall we?
+              resilient companies. Let&rsquo;s have a chat, shall we?
             </div>
             <div className="grid place-self-center">
               <a
@@ -1120,7 +1120,7 @@ export default function Home() {
                 rel="noreferrer"
                 className="btn h-[4.5rem] rounded-full border-none bg-orange-100 px-9 md:text-xl text-lg font-normal capitalize text-orange-500 hover:border-orange-500 hover:bg-orange-500 hover:text-white"
               >
-                Schedule a strategy session
+                Schedule a Discovery Call
               </a>
             </div>
           </div>
